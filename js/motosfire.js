@@ -1,12 +1,12 @@
 console.log("prueba con firebase!")
 
 const firebaseConfig = {
-	apiKey: "kjhsdkkasjhsdhhdh-GlmskHVOmxsl73dzrnYe0ynnUHyWJKg",
-	authDomain: "mkaskjhos-44a2b.firebaseapp.com",
-	projectId: "jsdkos-44a2b",
-	storageBucket: "mojasjss-44a2b.appspot.com",
-	messagingSenderId: "7616123125023",
-	appId: "1:76112312323:web:bb12335c3c3a8aadw33j9ae54a"
+	apiKey: "AIzaSyA-GlmskHVOmxsl73dzrnYe0ynnUHyWJKg",
+	authDomain: "motos-44a2b.firebaseapp.com",
+	projectId: "motos-44a2b",
+	storageBucket: "motos-44a2b.appspot.com",
+	messagingSenderId: "761686545023",
+	appId: "1:761686545023:web:bb393965c3c3a8a09ae54a"
   };
 
 

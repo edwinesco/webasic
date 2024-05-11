@@ -42,6 +42,12 @@ let motos = [
         "descripcion": "Esta máquina está pensada en los años 80. Estamos acostumbrados a nuevas incorporaciones básicas de diferentes compañías, pero este modelo sorprende, ya que llega con un nuevo motor, un CP3 de 899 centímetros cúbicos, desarrolla 118 caballos de fuerza a los 10.000 giros, (4 más que la versión anterior) y también aumenta su torque, llegando a los 93Nm a las 7.000rpm",
         "precio": 59500000,
         "url_img": "    "
+    },
+    {
+        "modelo": "Nuevo producto",
+        "descripcion": "Esta máquina está pensada en los años 80. Estamos acostumbrados a nuevas incorporaciones básicas de diferentes compañías, pero este modelo sorprende, ya que llega con un nuevo motor, un CP3 de 899 centímetros cúbicos, desarrolla 118 caballos de fuerza a los 10.000 giros, (4 más que la versión anterior) y también aumenta su torque, llegando a los 93Nm a las 7.000rpm",
+        "precio": 59500000,
+        "url_img": "    "
     }
 ];
 
@@ -56,8 +62,8 @@ motos.forEach(moto =>{
 	model.classList.add("model");
 	const descrip = document.createElement("p");
 	descrip.classList.add("descrip");
-	const precio = document.createElement("h2");
-	precio.classList.add("precio");
+    const precio = document.createElement("h2");
+    precio.classList.add("precio");
 	const imagen = document.createElement("div");
 	imagen.classList.add("imagen");
 	const img = document.createElement("img");
